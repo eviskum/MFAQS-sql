@@ -1,0 +1,6 @@
+LIBRARY    DB2SQL
+DESCRIPTION "DB2 --> MS SQL til MFAQS."
+EXPORTS
+   DllWorker   @1
+   DllLogReg   @2
+   DllGetLog   @3

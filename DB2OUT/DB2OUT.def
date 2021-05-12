@@ -1,0 +1,9 @@
+; DB2OUT.def : Declares the module parameters for the DLL.
+
+LIBRARY      "DB2OUT"
+DESCRIPTION  'DB2OUT Windows Dynamic Link Library'
+
+EXPORTS
+   DllWorker   @1
+   DllLogReg   @2
+   DllGetLog   @3

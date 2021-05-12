@@ -1,0 +1,9 @@
+; SQLINP.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SQLINP"
+DESCRIPTION  'SQLINP Windows Dynamic Link Library'
+
+EXPORTS
+   DllWorker   @1
+   DllLogReg   @2
+   DllGetLog   @3
